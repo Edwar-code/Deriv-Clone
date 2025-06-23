@@ -103,7 +103,7 @@
         "stylelint:fix": "stylelint \"./packages/*/src/**/*.s(a|c)ss\" --fix",
         "translate": "f () { npm exec --workspace=@deriv/translations -- npm run translate ;}; f",
         "stylelint-check": "stylelint-config-prettier-check",
-        "prepare": "husky install"
+
     },
     "dependencies": {
         "@babel/preset-typescript": "^7.24.7",
